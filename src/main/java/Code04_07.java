@@ -1,10 +1,9 @@
 public class Code04_07 {
     public static void main(String[] args) {
-       String var1 = "작은따옴표는 \" 모양입니다.";
-       String var2 = "큰따옴표는 \" 모양입니다.";
-
-        System.out.println(var1);
-        System.out.println(var2);
-
+        System.out.println("\n줄바꿈\n연습");
+        System.out.println("\t탭키\t연습");
+        System.out.println("어떤 글자를 \"강조\"하는 효과1");
+        System.out.println("어떤 글자를 '강조'하는 효과2");
+        System.out.println("\\\\ 백슬래시 2개 출력");
     }
 }
