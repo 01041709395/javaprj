@@ -1,12 +1,13 @@
 public class Add1 {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
-        int a,b,c,d;
+        String str = "  한글  ABCD   ";
+        String cutStr = "";
 
-        System.out.println("첫 번째 계산할 값을 입력하세요 ==> ");
-        System.out.println("두 번째 계산할 값을 입력하세요 ==> ");
-        System.out.println("세 번째 계산할 값을 입력하세요 ==> ");
-        System.out.println("네 번째 계산할 값을 입력하세요 ==> ");
+        cutStr=str.trim();
+
+        System.out.println("기존 문자열 ==> [" + str + "]");
+        System.out.println("공백 제거 ==> [" + cutStr + "]");
 
     }
 }
