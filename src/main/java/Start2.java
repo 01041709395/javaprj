@@ -1,10 +1,11 @@
 public class Start2 {
     public static void main(String[] args) {
-        int cub = 0;
+        int hap = 0;
+        for(int i=1001; i<2000; i+=2) {
+            hap += i;
 
-        for(int i=500; i<=1000; i+=2){
-            cub += i;
         }
-        System.out.println("500부터 1000까지 짝수의 합계 : "+ cub);
+        System.out.println("1000부터 2000까지 홀수의 합계 : " + hap);
     }
+
 }
