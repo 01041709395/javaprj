@@ -13,6 +13,13 @@ public class Code2_11 {
         str = s.next();
         System.out.println("사용자가 입력한 값 ==> " + str);
 
+        long num2;
+        System.out.println("정수를 입력하세요 : ");
+        num2 = s.nextLong();
+        System.out.println("내가 입력한 값 ==> " + num2);
+
+        System.out.println("원지름은 "+num+"이고 "+str+" 값은 "+num2+" 입니다");
+
         s.close();
     }
 }
